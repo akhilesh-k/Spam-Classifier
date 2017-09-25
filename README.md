@@ -10,8 +10,8 @@ Created it as python implementation for the taugh octave spam classifier in Mach
                 
                 Probability that a message containing a given word is spam
                                  P(W|S) * P(S)<br>
-                 P(S|W) = ----------------------------- <br>
-                          P(W|S) * P(S) + P(W|H) * P(H)<br>
+                 P(S|W) = ----------------------------- 
+                          P(W|S) * P(S) + P(W|H) * P(H)
                           
                           <br>
                           <br>
