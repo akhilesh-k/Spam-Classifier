@@ -9,8 +9,6 @@ from functools import reduce
 
 # Regex to define the input.
 word_regex = re.compile("[a-zA-Z']+(?:-[a-zA-Z']+)?")
-
-# Return a dict of messages with filenames for keys
 def get_messages(folder):
     messages = {}
     encoding = sys.stdout.encoding
